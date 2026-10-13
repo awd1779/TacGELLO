@@ -4,7 +4,7 @@
   <name>tacgello_ros</name>
   <version>1.0.0</version>
   <description>TacGELLO: tactile contact and joint-current load feedback for a 3D-printed STS3215 UR3 teleoperation leader.</description>
-  <maintainer email="user@example.com">TacGELLO Authors</maintainer>
+  <maintainer email="sangmim.song@student.uts.edu.au">Sangmin Song</maintainer>
   <license>MIT</license>
 
   <depend>rclpy</depend>

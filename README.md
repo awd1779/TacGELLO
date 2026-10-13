@@ -4,7 +4,10 @@
 
 Younsoo Kim, Sangmin Song, Sarath Kodagoda, Marc Carmichael, Karthick Thiyagarajan
 
-[[Paper (arXiv:2610.05583)]](https://arxiv.org/abs/2610.05583)
+[![arXiv](https://img.shields.io/badge/arXiv-2610.05583-b31b1b.svg)](https://arxiv.org/abs/2610.05583)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+**Paper:** [https://arxiv.org/abs/2610.05583](https://arxiv.org/abs/2610.05583)
 
 TacGELLO adds two feedback channels to a [GELLO](https://wuphilipp.github.io/gello_site/)-style
 3D-printed leader arm. It uses only the leader's existing STS3215 servos, with no extra
@@ -217,5 +220,11 @@ If you use this work, please cite TacGELLO together with GELLO and AnySkin:
 
 ## License
 
-MIT; see [LICENSE](LICENSE). Third-party components keep their own licenses
-([THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)).
+TacGELLO is released under the [MIT License](LICENSE). This covers everything we designed, including
+the leader software, the custom two-finger gripper (controller code and ESP32 firmware) and, when
+released, its CAD files. You can use, modify and redistribute them freely, including commercially,
+as long as you keep the copyright notice.
+
+TacGELLO builds on [GELLO](https://github.com/wuphilipp/gello_software) and
+[AnySkin](https://github.com/raunaqbhirangi/anyskin), which are both MIT-licensed. The pretrained
+slip model in `gripper/models/` is Apache-2.0. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

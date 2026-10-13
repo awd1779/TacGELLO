@@ -15,8 +15,8 @@ setup(
     ],
     install_requires=["setuptools", "pyserial"],
     zip_safe=True,
-    maintainer="TacGELLO Authors",
-    maintainer_email="user@example.com",
+    maintainer="Sangmin Song",
+    maintainer_email="sangmim.song@student.uts.edu.au",
     description=(
         "TacGELLO: tactile contact and joint-current load feedback for a "
         "3D-printed STS3215 UR3 teleoperation leader."

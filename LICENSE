@@ -1,10 +1,7 @@
 MIT License
 
 Copyright (c) 2026 The TacGELLO Authors
-(Younsoo Kim, Sangmin Song, Sarath Kodagoda, Marc Carmichael, Karthick Thiyagarajan)
-
-This project began as a fork of GELLO (https://github.com/wuphilipp/gello_software):
-Copyright (c) 2023 Philipp Wu
+Copyright (c) 2023 Philipp Wu (GELLO)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,5 +21,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Third-party components in this repository keep their own licenses; see
-THIRD_PARTY_NOTICES.md.
