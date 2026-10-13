@@ -1,0 +1,51 @@
+# keep each top level section alphabetical
+# keep each item within the sections alphabetical
+
+# large files
+*.png
+*.gif
+
+# mac
+*.DS_Store
+
+# misc
+*logs*
+*runs*
+*tb_logs*
+*wandb*
+*wandb_logs*
+outputs/*
+
+# python
+*__pycache__
+*.egg-info
+*.hypothesis
+*.ipynb_checkpoints
+*.mypy_cache
+*.pyc
+
+# vim
+*.swp
+
+#ros
+ros2/build/
+ros2/install/
+ros2/log/
+
+# Local experiment recordings and generated reports
+gripper/anyskin_raw_records/
+gripper/load_reports/
+gripper/regrasp_probe_reports/
+experimental/regrasp_probe_reports/
+gripper/slip_model_reports/
+gripper/tracking_reports/
+ros2/lerobot_demos/
+ros2/camera_diagnostics/
+ros2/lift_force_diagnostics/
+ros2/tools/lerobot_demos/
+ros2/tools/camera_diagnostics/
+ros2/tools/lift_force_diagnostics/
+
+
+# 3D Model Files
+*.stl

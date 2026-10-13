@@ -1,0 +1,72 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the TacGELLO paper, together with GELLO and AnySkin."
+title: "TacGELLO"
+type: software
+license: MIT
+authors:
+  - family-names: Kim
+    given-names: Younsoo
+  - family-names: Song
+    given-names: Sangmin
+  - family-names: Kodagoda
+    given-names: Sarath
+  - family-names: Carmichael
+    given-names: Marc
+  - family-names: Thiyagarajan
+    given-names: Karthick
+preferred-citation:
+  type: article
+  title: "TacGELLO: Tactile Contact Feedback for a 3D-Printed Teleoperation Leader"
+  authors:
+    - family-names: Kim
+      given-names: Younsoo
+    - family-names: Song
+      given-names: Sangmin
+    - family-names: Kodagoda
+      given-names: Sarath
+    - family-names: Carmichael
+      given-names: Marc
+    - family-names: Thiyagarajan
+      given-names: Karthick
+  journal: "arXiv preprint"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.05583"
+  doi: "10.48550/arXiv.2610.05583"
+  url: "https://arxiv.org/abs/2610.05583"
+  year: 2026
+references:
+  - type: conference-paper
+    title: "GELLO: A General, Low-Cost, and Intuitive Teleoperation Framework for Robot Manipulators"
+    authors:
+      - family-names: Wu
+        given-names: Philipp
+      - family-names: Shentu
+        given-names: Yide
+      - family-names: Yi
+        given-names: Zhongke
+      - family-names: Lin
+        given-names: Xingyu
+      - family-names: Abbeel
+        given-names: Pieter
+    collection-title: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)"
+    year: 2024
+    url: "https://arxiv.org/abs/2309.13037"
+  - type: conference-paper
+    title: "AnySkin: Plug-and-play Skin Sensing for Robotic Touch"
+    authors:
+      - family-names: Bhirangi
+        given-names: Raunaq
+      - family-names: Pattabiraman
+        given-names: Venkatesh
+      - family-names: Erciyes
+        given-names: Enes
+      - family-names: Cao
+        given-names: Yifeng
+      - family-names: Hellebrekers
+        given-names: Tess
+      - family-names: Pinto
+        given-names: Lerrel
+    collection-title: "IEEE International Conference on Robotics and Automation (ICRA)"
+    year: 2025
+    url: "https://arxiv.org/abs/2409.08276"

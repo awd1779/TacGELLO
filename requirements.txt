@@ -1,0 +1,11 @@
+# Host-side Python dependencies (ROS 2 Humble itself is installed separately).
+# keep in alphabetical order
+feetech-servo-sdk   # provides scservo_sdk for the STS3215 leader servos
+numpy
+pyserial>=3.5
+ur_rtde             # provides rtde_control / rtde_receive
+
+# Optional
+# pygame             # gripper/manual_gripper_shell.py keyboard/joystick UI
+# opencv-python pyarrow   # lerobot_demo_recorder (camera dataset recording)
+# torch safetensors  # experimental learned slip detection (off by default)
